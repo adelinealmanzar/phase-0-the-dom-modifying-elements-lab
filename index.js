@@ -3,5 +3,5 @@ main.remove();
 
 const newHeader = document.createElement('h1');
 newHeader.id = 'victory';
-newHeader.innerHTML = `Spongebob is the champion`;
+newHeader.textContent = `Spongebob is the champion`;
 document.body.append(newHeader);
